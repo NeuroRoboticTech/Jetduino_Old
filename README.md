@@ -9,6 +9,8 @@ Another awesome feature of the Jetduino is that it also combines the Arduino Mic
 ### How Does it Work?
 The Jetduino board is the same size as the Jetson and it is mounted above or below it. Because the Jetson TK1 uses a female 2mm connector on its board, an interface connector was required. This connector ships with the Jetduino. It plugs into the Jetson and a normal Raspberry Pi GPIO ribbon cable is used to connect the Jetduino to the Jetson. Next, connect your Grove sensor. Upload your program. Begin taking in the worlds data!
 
+Most of the Grove interface scripts found in the Jetduino library are modified versions of GrovePi code. GrovePi is a Grove board used for the Raspberry Pi. There are only minor modifications required to use those scripts and libraries on the Jetson. If there is a Grove module you would like to use that is not yet in the Jetduino library you will probably be able to find it in the GrovePi library and modify it. You can find the GrovePi library here: [https://github.com/DexterInd/GrovePi](https://github.com/DexterInd/GrovePi)
+
 ### Jetson Compatibility
 The Jetduino is compatible with the Jetson TK1 and the Arduino Due. If there is enough demand for this, then it is possible new versions for the Jetson TX1 and Geniuno 101 could be built.
 
@@ -17,9 +19,9 @@ Getting started is easy. Check out our Getting Started With Jetduino Guide [here
 We have an extensive library that covers most Grove sensors. You can find it on the Github repo.  You won’t need to hack much at all with our library: get started coding in Python and C now! 
 
 ### Want to use a sensor not in the library yet?  
-Ask us in the [forums](http://neurorobotictech.com/Community/Forum). Want to use the GrovePi in a language not currently supported? [Ask and we will help](http://neurorobotictech.com/Community/Forum).
+Ask us in the [forums](http://neurorobotictech.com/Community/Forum). Want to use the Jetduino in a language not currently supported? [Ask and we will help](http://neurorobotictech.com/Community/Forum).
 
-### Programming the GrovePi
+### Programming the Jetduino
 The Jetduino can be programmed in Python, C, and C++ on the Jetson.  Simply start with one of our [example projects](http://www.NeuroRoboticTech.com/Projects/Jetduino/projects-for-the-Jetson/) or [example code](https://github.com/NeuroRoboticTech/Jetduino).  
 
 ### Getting Help
